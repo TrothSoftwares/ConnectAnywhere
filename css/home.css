@@ -52,3 +52,17 @@ letter-spacing: 1.1px;
 .tag-label{
 
 }
+.panel-body
+{
+  background: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.tab-content .media{
+  background: #eee;
+margin: 10px 0px;
+
+}
+.tab-content hr{
+margin-top: 5px;
+}
