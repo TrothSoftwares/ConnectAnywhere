@@ -1,0 +1,55 @@
+
+.home-head
+  {
+    height: 100%;
+    padding-top: 100px;
+    text-align: left;
+  }
+  .media
+   {
+       /*box-shadow:0px 0px 4px -2px #000;*/
+       margin: 10px ;
+       padding:10px;
+       background: #fff;
+   }
+   .dp
+   {
+       transition: all 0.2s ease-in-out;
+   }
+   /*.dp:hover
+   {
+       border:2px solid #eee;
+       transform:rotate(360deg);
+       -ms-transform:rotate(360deg);
+       -webkit-transform:rotate(360deg);
+   }*/
+   .close
+   {
+     background: url(../img/cb.png);
+    background-size: contain;
+     width: 20px;
+     height: 20px;
+     margin-left: 10px;
+     cursor: pointer;
+   }
+.lb-md{
+letter-spacing: 1.1px;
+}
+.cbtns
+{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.media-body
+{
+  position: relative;
+}
+.well
+{
+  margin-top: 50px;
+}
+.mtop-xs
+{
+  margin-top: 9px;
+}
