@@ -4,6 +4,7 @@
     height: 100%;
     padding-top: 100px;
     text-align: left;
+    margin-top: 50px;
   }
   .media
    {
@@ -12,17 +13,7 @@
        padding:10px;
        background: #fff;
    }
-   .dp
-   {
-       transition: all 0.2s ease-in-out;
-   }
-   /*.dp:hover
-   {
-       border:2px solid #eee;
-       transform:rotate(360deg);
-       -ms-transform:rotate(360deg);
-       -webkit-transform:rotate(360deg);
-   }*/
+
    .close
    {
      background: url(../img/cb.png);
@@ -47,9 +38,17 @@ letter-spacing: 1.1px;
 }
 .well
 {
-  margin-top: 50px;
+
 }
 .mtop-xs
 {
   margin-top: 9px;
+}
+
+.btn-fluid
+{
+  width: 100%;
+}
+.tag-label{
+
 }
