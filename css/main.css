@@ -39,3 +39,15 @@ html {
   padding-top: 50px;
   text-align: center;
 }
+.trending .label-default:hover
+{
+  background: #555;
+  cursor: pointer;
+}
+.close{
+  opacity: 0.8;
+}
+.close:focus, .close:hover
+{
+  opacity: 1.0;
+}
