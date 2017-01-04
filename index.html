@@ -30,7 +30,9 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div class="gradbg">
 
+</div>
     <!-- Navigation -->
 
 
@@ -39,8 +41,10 @@
       <h1>ConnectAnywhere</h1>
       <div class="container" id="wrap">
 	  <div class="row">
-        <div class="col-md-6 " style="padding:0px 50px;border-right:1px solid rgba(0,0,0,0.1)">
-            <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend style="text-align:center">Sign Up</legend>
+        <div class="col-md-6 " class="hidden">
+
+          <h2>Sign Up</h2>
+            <form action="r" method="post" accept-charset="utf-8" class="form" role="form">
                     <div class="row">
                         <div class="col-xs-6 col-md-6">
                             <input type="text" name="firstname" value="" class="form-control input-sm" placeholder="First Name"  />                        </div>
@@ -200,34 +204,34 @@
           </div>
           <div class="col-md-6" style="padding: 0px 50px">
 
+                <br>
+                <div class="row">
+                  <div class="col-md-2">
+
+                  </div>
+                      <div class="col-md-8">
+                        <div class="wrap1 login">
+                          <h2>Sign In</h2>
+
+                          <form >
+                        <input type="text" name="imobile" value=""class="btn-block" placeholder="Your Mobile"  />
+                        <input type="password" name="ipassword" value="" class="btn-block" placeholder="Password"  />
+                      <a href="home.html" class="btn   btn-primary btn-block signup-btn" >Login</a>
+                      <br>
+                      <a href="forgotPassword.html"> Forgot Password?</a>
+
+                      </form>
+                      </div>
+                  <div class="col-md-2">
+
+                  </div>
+
+
+                </div>
 
 
 
-  <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend style="text-align:center">Login</legend>
-    <br><br><br>
-    <div class="row">
-      <div class="col-md-2">
-
-      </div>
-
-
-          <div class="col-md-8">
-            <input type="text" name="mobile" value="" class="form-control input-sm" placeholder="Your Mobile"  />
-            <input type="password" name="password" value="" class="form-control input-sm" placeholder="Password"  />
-          <a href="home.html" class="btn   btn-primary btn-block signup-btn" >Login</a>
-          <br>
-          <a href="forgotPassword.html"> Forgot Password?</a>
-
-
-          </div>
-      <div class="col-md-2">
-
-      </div>
-
-
-    </div>
-
-  </form>
+            </div>
 
 
 
